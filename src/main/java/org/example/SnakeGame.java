@@ -1,7 +1,13 @@
 package org.example;
 
-public class Main {
+//Main class of SnakeGame
+
+public class SnakeGame {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        new GameFrame();
+
+
+
+
     }
 }
