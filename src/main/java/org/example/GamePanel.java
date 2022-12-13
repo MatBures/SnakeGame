@@ -22,7 +22,7 @@ public class GamePanel extends JPanel implements ActionListener {
     static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/(UNIT_SIZE*UNIT_SIZE);
 
     //Setting delay for timer.
-    static final int DELAY = 80;
+    static final int DELAY = 125;
 
     //These arrays holds bodyparts of the snake in game.
     final int x[] = new int[GAME_UNITS];
